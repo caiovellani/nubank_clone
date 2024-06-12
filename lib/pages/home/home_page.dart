@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:nubank_clone/pages/home/models/header.dart';
 import 'package:nubank_clone/utils/default_colors.dart';
 
 class HomePage extends StatefulWidget {
@@ -16,7 +17,14 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: backgroundColor,
       appBar: _appBar(),
       body: SingleChildScrollView(
-        child: Container(),
+        child: Container(
+          color: Colors.white,
+          child: const Column(
+            children: [
+              Header(),
+            ],
+          ),
+        ),
       ),
     );
   }
