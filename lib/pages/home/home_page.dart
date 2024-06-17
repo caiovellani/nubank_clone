@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:nubank_clone/pages/account/account.dart';
+import 'package:nubank_clone/pages/account/account_nubank.dart';
 import 'package:nubank_clone/pages/home/models/header.dart';
 import 'package:nubank_clone/utils/default_colors.dart';
 
