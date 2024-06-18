@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:nubank_clone/pages/account/account_nubank.dart';
+import 'package:nubank_clone/pages/actions/menu_itens.dart';
 import 'package:nubank_clone/pages/home/models/header.dart';
 import 'package:nubank_clone/utils/default_colors.dart';
 
@@ -15,7 +16,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: backgroundColor,
+      backgroundColor: greyColor,
       appBar: _appBar(),
       body: SingleChildScrollView(
         child: Container(
@@ -24,6 +25,7 @@ class _HomePageState extends State<HomePage> {
             children: [
               Header(),
               AccountNubank(),
+              MenuItens(),
             ],
           ),
         ),
