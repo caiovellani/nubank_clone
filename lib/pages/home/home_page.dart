@@ -5,6 +5,7 @@ import 'package:nubank_clone/pages/actions/menu_itens.dart';
 import 'package:nubank_clone/pages/credits/credit_card_page.dart';
 import 'package:nubank_clone/pages/credits/my_credits_cards.dart';
 import 'package:nubank_clone/pages/home/models/header.dart';
+import 'package:nubank_clone/pages/investments/investments.dart';
 import 'package:nubank_clone/utils/default_colors.dart';
 
 import '../notification/notifications_page.dart';
@@ -37,6 +38,8 @@ class _HomePageState extends State<HomePage> {
               NotificationsPage(),
               Divider(thickness: 1.5),
               CreditCardPage(),
+              Divider(thickness: 1.5),
+              Investments(),
             ],
           ),
         ),
