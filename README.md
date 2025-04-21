@@ -1,16 +1,47 @@
-# nubank_clone
+# Nubank Clone 💳 – Flutter App
 
-A new Flutter project.
+A mobile app clone of the **Nubank** banking interface, built using **Flutter**. This project replicates the core visual components and user interface of Nubank, offering an elegant and responsive design, ideal for UI study and Flutter learning.
 
-## Getting Started
+## 🛠️ Tech Stack
 
-This project is a starting point for a Flutter application.
+- **Flutter** – UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase
+- **Dart** – Programming language for Flutter development
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Clean and responsive Nubank-like UI
+- Custom components replicating cards, balance display, and quick actions
+- Scrollable interface with smooth animations
+- Dark mode styling
+- Reusable widgets for UI scalability
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> ⚠️ This is a **UI clone only** – it does not include backend or real financial features.
+
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Flutter SDK installed
+- A code editor like **Visual Studio Code** or **Android Studio**
+
+### Run Locally
+
+### Clone the repository:
+
+```bash
+git clone https://github.com/caiovellani/nubank_clone.git
+cd nubank_clone
+```
+
+### Install dependencies
+
+```bash
+flutter pub get
+```
+
+### Run the app:
+
+```bash
+flutter run
+```
